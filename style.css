@@ -12,3 +12,11 @@ body {
   background-color: #f0f0f0;
   margin: 2rem auto;
 }
+
+form {
+  width: 343px;
+  height: 486px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 2rem 2rem 6rem 2rem;
+}
