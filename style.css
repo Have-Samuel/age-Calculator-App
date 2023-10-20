@@ -6,3 +6,10 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  width: 375px;
+  height: 812px;
+  background-color: #f0f0f0;
+  margin: 2rem auto;
+}
