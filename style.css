@@ -20,3 +20,7 @@ form {
   margin: 0 auto;
   border-radius: 2rem 2rem 6rem 2rem;
 }
+
+form input {
+  width: 90px;
+}
