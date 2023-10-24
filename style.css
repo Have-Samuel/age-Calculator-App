@@ -25,3 +25,6 @@ form {
   border: 2px solid green;
 }
 
+label input {
+  width: 88px;
+}
