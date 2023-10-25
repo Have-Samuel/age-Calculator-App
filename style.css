@@ -27,7 +27,7 @@ section {
 
 form {
   display: flex;
-  gap: 1rem;
+  gap: 0.7rem;
   align-items: center;
   justify-content: center;
 }
@@ -42,7 +42,7 @@ form label {
 
 label input {
   width: 68px;
-  border-color: #dcdcdc;
+  /* border-color: #dcdcdc; */
   border-radius: 5px;
-  padding: 0.4rem;
+  padding: 0.5rem;
 }
