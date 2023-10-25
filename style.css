@@ -48,7 +48,8 @@ label input {
 }
 
 .hr-line {
-  
+  width: 80%;
+  margin: 2.5rem auto;
 }
 
 .img {
