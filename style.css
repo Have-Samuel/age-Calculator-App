@@ -27,12 +27,22 @@ section {
 
 form {
   display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 form label {
-  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+  align-items: center;
+  /* margin: 0.5rem; */
 }
 
 label input {
-  width: 88px;
+  width: 68px;
+  border-color: #dcdcdc;
+  border-radius: 5px;
+  padding: 0.4rem;
 }
