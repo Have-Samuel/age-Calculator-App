@@ -27,7 +27,6 @@ section {
 
 form {
   display: flex;
-  /* gap: 0.7rem; */
   align-items: center;
   justify-content: center;
 }
@@ -49,6 +48,11 @@ input[type='tel'] {
   padding: 0.6rem;
   text-align: center;
   margin-top: 0.2rem;
+}
+
+input[type='tel']:hover {
+  border: 1px solid #854dff;
+  cursor: pointer;
 }
 
 ::placeholder {
@@ -78,21 +82,16 @@ input[type='tel'] {
 }
 
 .display {
-  /* width: 295px; */
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   margin: 2rem;
-  /* margin-top: 0; */
 }
 
 .age {
   display: flex;
   margin-top: -1.5rem;
-  /* font-size: 32px; */
   text-align: center;
-  /* justify-content: center; */
   align-items: center;
   font-style: italic;
 }
@@ -105,8 +104,6 @@ input[type='tel'] {
 
 .age-text {
   font-size: 49px;
-  /* font-size: 52px; */
-  /* margin-top: -9rem; */
   font-weight: 800;
   margin-left: 0.6rem;
 }
