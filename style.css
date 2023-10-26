@@ -46,13 +46,15 @@ input[type='tel'] {
   border: 1px solid #dcdcdc;
   border-radius: 5px;
   padding: 0.6rem;
-  text-align: center;
+  text-align: left;
   margin-top: 0.2rem;
 }
 
-input[type='tel']:hover {
+input[type='tel']:hover,
+input[type='tel']:focus {
   border: 1px solid #854dff;
   cursor: pointer;
+  outline: none;
 }
 
 ::placeholder {
@@ -139,7 +141,7 @@ input[type='tel']:hover {
   input[type='tel'] {
     width: 160px;
     padding: 0.9rem;
-    text-align: center;
+    text-align: left;
     margin-top: 0.8rem;
     font-size: 25px;
   }
