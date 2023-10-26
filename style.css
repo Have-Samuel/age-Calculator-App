@@ -50,12 +50,22 @@ label input {
   padding: 0.5rem;
 }
 
+.mid-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin: 2rem auto; */
+}
+
 .hr-line {
   width: 80%;
-  margin: 2.5rem auto;
+  /* margin: 2.5rem auto; */
 }
 
 .img {
+  /* width: 24px;
+  height: 24px; */
   background-color: #854dff;
   border-radius: 50%;
   height: 64px;
