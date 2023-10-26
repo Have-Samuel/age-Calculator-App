@@ -121,3 +121,17 @@ input[type='tel']:hover {
   display: flex;
   flex-direction: column;
 }
+
+@media (min-width: 1200px) {
+  body {
+    width: 1200px;
+  }
+
+  section {
+    width: 840px;
+  }
+
+  form {
+    width: 840px;
+  }
+}
