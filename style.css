@@ -119,6 +119,7 @@ input[type='tel']:hover {
   }
 
   section {
+    margin: 4.5rem auto;
     width: 840px;
     height: 560px;
   }
