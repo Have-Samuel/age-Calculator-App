@@ -56,22 +56,30 @@ label input {
   align-items: center;
   justify-content: center;
   /* margin: 2rem auto; */
+  position: relative;
 }
 
 .hr-line {
+  position: absolute;
   width: 80%;
-  /* margin: 2.5rem auto; */
+}
+
+.size {
+  /* font-size: 0.8rem; */
+  color: #dcdcdc;
+  margin: 0.5rem;
 }
 
 .img {
   /* width: 24px;
   height: 24px; */
+  /* position: absolute; */
   background-color: #854dff;
   border-radius: 50%;
   height: 64px;
   width: 64px;
-  text-align: center;
-  align-items: center;
+  /* text-align: center;
+  align-items: center; */
   margin: 2rem auto;
   z-index: 1;
 }
