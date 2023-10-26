@@ -40,15 +40,19 @@ label {
   align-items: center;
   display: flex;
   flex-direction: column;
-  /* text-align: left;
-  align-items: flex-start; */
 }
 
 input[type='tel'] {
-  width: 23vw;
+  width: 22vw;
   border: 1px solid #dcdcdc;
   border-radius: 5px;
-  padding: 0.5rem;
+  padding: 0.6rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+
+::placeholder {
+  color: #000;
 }
 
 .mid-sec {
