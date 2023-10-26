@@ -16,43 +16,60 @@ body {
 section {
   display: flex;
   flex-direction: column;
-  padding-top: 2rem;
+  padding-top: 3rem;
   width: 343px;
   height: 486px;
   background-color: #fff;
   margin: 0 auto;
   border-radius: 2rem 2rem 6rem 2rem;
-  border: 2px solid green;
 }
 
 form {
   display: flex;
-  gap: 0.7rem;
   align-items: center;
   justify-content: center;
 }
 
-form label {
+label {
+  color: #716f6f;
+  font-size: 10px;
+  letter-spacing: 0.09rem;
+  opacity: 0.8;
+  margin: 0.3rem;
+  align-items: center;
   display: flex;
   flex-direction: column;
-
-  /* gap: 1rem; */
-  align-items: center;
-
-  /* margin: 0.5rem; */
 }
 
-label input {
-  width: 68px;
-
-  /* border-color: #dcdcdc; */
+input[type='tel'] {
+  width: 80px;
+  border: 1px solid #dcdcdc;
   border-radius: 5px;
-  padding: 0.5rem;
+  padding: 0.6rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+
+input[type='tel']:hover {
+  border: 1px solid #854dff;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #000;
+}
+
+.mid-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .hr-line {
+  position: absolute;
   width: 80%;
-  margin: 2.5rem auto;
 }
 
 .img {
@@ -60,8 +77,42 @@ label input {
   border-radius: 50%;
   height: 64px;
   width: 64px;
-  text-align: center;
-  align-items: center;
   margin: 2rem auto;
   z-index: 1;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.age {
+  display: flex;
+  margin-top: -1.5rem;
+  text-align: center;
+  align-items: center;
+  font-style: italic;
+}
+
+.age-num {
+  color: #854dff;
+  font-weight: 800;
+  font-size: 49px;
+}
+
+.age-text {
+  font-size: 49px;
+  font-weight: 800;
+  margin-left: 0.6rem;
+}
+
+.footer {
+  font-size: 10px;
+  opacity: 0.8;
+  margin: 0.3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
