@@ -16,13 +16,12 @@ body {
 section {
   display: flex;
   flex-direction: column;
-  padding-top: 2rem;
+  padding-top: 3rem;
   width: 343px;
   height: 486px;
   background-color: #fff;
   margin: 0 auto;
   border-radius: 2rem 2rem 6rem 2rem;
-  border: 2px solid green;
 }
 
 form {
@@ -33,8 +32,9 @@ form {
 
 label {
   color: #716f6f;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.09rem;
+  opacity: 0.8;
   margin: 0.3rem;
   align-items: center;
   display: flex;
