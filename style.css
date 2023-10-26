@@ -113,11 +113,66 @@ input[type='tel']:hover {
   margin-left: 0.6rem;
 }
 
-.footer {
-  font-size: 10px;
-  opacity: 0.8;
-  margin: 0.3rem;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+@media (min-width: 1200px) {
+  body {
+    width: 1200px;
+  }
+
+  section {
+    margin: 4.5rem auto;
+    width: 840px;
+    height: 560px;
+  }
+
+  form {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    margin-left: 5rem;
+    gap: 1rem;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  input[type='tel'] {
+    width: 160px;
+    padding: 0.9rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    font-size: 25px;
+  }
+
+  .mid-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  img {
+    position: relative;
+    top: 0;
+    right: -310px;
+    margin: 0 auto;
+  }
+
+  .display {
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem 0 5rem;
+  }
+
+  .age-num {
+    color: #854dff;
+    font-weight: 800;
+    font-size: 69px;
+  }
+
+  .age-text {
+    font-size: 69px;
+    font-weight: 800;
+  }
 }
