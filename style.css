@@ -60,7 +60,6 @@ input[type='tel'] {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* margin: 2rem auto; */
   position: relative;
 }
 
@@ -70,15 +69,10 @@ input[type='tel'] {
 }
 
 .img {
-  /* width: 24px;
-  height: 24px; */
-  /* position: absolute; */
   background-color: #854dff;
   border-radius: 50%;
   height: 64px;
   width: 64px;
-  /* text-align: center;
-  align-items: center; */
   margin: 2rem auto;
   z-index: 1;
 }
