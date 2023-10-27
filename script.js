@@ -19,11 +19,12 @@ const months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 // Function VALIDATOR
 function validator() {
   const inputs = [dayInput, monthInput, yearInput];
+  const validator = true;
   inputs.forEach((input) => {
+    const parent = input.parentElement;
     if (input.value === '') {
       input.classList.add('error');
-    } else {
-      input.classList.remove('error');
+      parent.querySelector('small').innerText = 'This field is required';
     }
   });
 }
