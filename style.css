@@ -13,7 +13,7 @@ body {
   margin: 2rem auto;
 }
 
-section {
+.filler {
   display: flex;
   flex-direction: column;
   padding-top: 3rem;
@@ -21,7 +21,7 @@ section {
   height: 486px;
   background-color: #fff;
   margin: 0 auto;
-  border-radius: 2rem 2rem 6rem 2rem;
+  border-radius: 2rem 2rem 10rem 2rem;
 }
 
 form {
@@ -39,6 +39,7 @@ label {
   align-items: center;
   display: flex;
   flex-direction: column;
+  text-transform: uppercase;
 }
 
 input[type='tel'] {
@@ -74,16 +75,25 @@ input[type='tel']:focus {
   width: 80%;
 }
 
-.img {
+button {
   background-color: #854dff;
-  border-radius: 50%;
+  border: none;
   height: 64px;
   width: 64px;
-  margin: 2rem auto;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
   z-index: 1;
+  margin: 2rem auto;
+  transform: translate(-50%, -50%);
 }
 
-.img:hover {
+small {
+  color: #f00;
+}
+
+button:hover {
   cursor: pointer;
   background-color: black;
 }
@@ -120,10 +130,11 @@ input[type='tel']:focus {
     width: 1200px;
   }
 
-  section {
+  .filler {
     margin: 4rem auto;
     width: 840px;
     height: 560px;
+    border-radius: 2rem 2rem 10rem 2rem;
   }
 
   form {
@@ -158,7 +169,7 @@ input[type='tel']:focus {
     color: #8a8888;
   }
 
-  img {
+  button {
     position: relative;
     top: 0;
     right: -310px;
