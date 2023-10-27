@@ -8,6 +8,10 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 375px;
   background-color: #f0f0f0;
   margin: 2rem auto;
@@ -24,8 +28,25 @@ body {
   border-radius: 2rem 2rem 10rem 2rem;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 form {
   display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+}
+
+.form-inner {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -72,7 +93,7 @@ input[type='tel']:focus {
 
 .hr-line {
   position: absolute;
-  width: 80%;
+  width: 85%;
 }
 
 button {
@@ -94,6 +115,11 @@ small {
 
 .error {
   color: #f00;
+  border: #f00 1px solid;
+}
+
+input[type='tel'] .error {
+  border: #f00 1px solid;
 }
 
 button:hover {
@@ -170,6 +196,15 @@ button:hover {
 
   ::placeholder {
     color: #8a8888;
+  }
+/* 
+  .mid-sec hr {
+    width: 100%;
+  } */
+
+  .hr-line {
+    /* position: absolute; */
+    /* width: 100%; */
   }
 
   button {
