@@ -21,7 +21,7 @@ body {
   height: 486px;
   background-color: #fff;
   margin: 0 auto;
-  border-radius: 2rem 2rem 6rem 2rem;
+  border-radius: 2rem 2rem 10rem 2rem;
 }
 
 form {
@@ -39,6 +39,7 @@ label {
   align-items: center;
   display: flex;
   flex-direction: column;
+  text-transform: uppercase;
 }
 
 input[type='tel'] {
@@ -120,10 +121,11 @@ input[type='tel']:focus {
     width: 1200px;
   }
 
-  section {
+  .filler {
     margin: 4rem auto;
     width: 840px;
     height: 560px;
+    border-radius: 2rem 2rem 10rem 2rem;
   }
 
   form {
