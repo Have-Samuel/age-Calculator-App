@@ -92,6 +92,10 @@ small {
   color: #f00;
 }
 
+.error {
+  color: #f00;
+}
+
 button:hover {
   cursor: pointer;
   background-color: black;
