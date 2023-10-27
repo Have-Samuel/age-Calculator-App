@@ -173,7 +173,7 @@ button:hover {
     color: #8a8888;
   }
 
-  .img {
+  button {
     position: relative;
     top: 0;
     right: -310px;
