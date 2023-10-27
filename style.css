@@ -13,7 +13,7 @@ body {
   margin: 2rem auto;
 }
 
-section {
+.filler {
   display: flex;
   flex-direction: column;
   padding-top: 3rem;
