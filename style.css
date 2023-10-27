@@ -197,14 +197,9 @@ button:hover {
   ::placeholder {
     color: #8a8888;
   }
-/* 
-  .mid-sec hr {
-    width: 100%;
-  } */
 
   .hr-line {
-    /* position: absolute; */
-    /* width: 100%; */
+    width: 100%;
   }
 
   button {
