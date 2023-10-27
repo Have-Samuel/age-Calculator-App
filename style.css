@@ -86,6 +86,7 @@ button {
   cursor: pointer;
   z-index: 1;
   margin: 2rem auto;
+  transform: translate(-50%, -50%);
 }
 
 small {
