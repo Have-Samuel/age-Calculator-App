@@ -55,7 +55,7 @@ label {
   color: #716f6f;
   font-size: 10px;
   letter-spacing: 0.09rem;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   /* margin: 0.3rem; */
   align-items: center;
   display: flex;
