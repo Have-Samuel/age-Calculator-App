@@ -114,6 +114,7 @@ button {
 
 small {
   color: #f00;
+  font-size: 0.4rem;
 }
 
 .error {
