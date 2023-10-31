@@ -178,8 +178,8 @@ button:hover {
   form {
     display: flex;
     justify-content: flex-start;
-    gap: 1rem;
     width: 728px;
+    /* margin-left: 0rem; */
   }
 
   .content {
