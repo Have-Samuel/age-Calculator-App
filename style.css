@@ -182,6 +182,13 @@ button:hover {
     width: 728px;
   }
 
+  .content {
+    display: flex;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
   label {
     font-size: 14px;
   }
