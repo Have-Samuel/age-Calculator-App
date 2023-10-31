@@ -113,8 +113,10 @@ button {
 }
 
 small {
+  width: 80px;
   color: #f00;
   font-size: 0.4rem;
+  text-align: center;
 }
 
 .error {
