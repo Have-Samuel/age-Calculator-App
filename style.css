@@ -177,9 +177,7 @@ button:hover {
 
   form {
     display: flex;
-    align-items: start;
     justify-content: flex-start;
-    margin-left: 5rem;
     gap: 1rem;
     width: 728px;
   }
