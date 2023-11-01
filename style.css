@@ -193,6 +193,7 @@ button:hover {
   }
 
   input[type='tel'] {
+    border-radius: 10px;
     width: 160px;
     padding: 0.9rem;
     text-align: left;
