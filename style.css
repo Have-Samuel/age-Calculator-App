@@ -115,11 +115,13 @@ button {
 small {
   width: 80px;
   color: #f00;
-  font-size: 0.4rem;
-  text-align: center;
+  font-size: 0.41rem;
+  text-align: start;
   text-transform: none;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.04rem;
 }
 
 .error {
@@ -199,6 +201,17 @@ button:hover {
     text-align: left;
     margin-top: 0.8rem;
     font-size: 25px;
+  }
+
+  small {
+    width: 160px;
+    font-size: 0.6rem;
+    text-align: start;
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.05rem;
   }
 
   .mid-sec {
