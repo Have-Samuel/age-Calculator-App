@@ -40,7 +40,7 @@ function validate() {
       validator = false;
     } else if (yearInput.value > year) {
       yearInput.classList.add('error');
-      yearInput.parentElement.querySelector('small').innerText = 'Invalid year';
+      yearInput.parentElement.querySelector('small').innerText = 'Must in the past';
       validator = false;
     }
   });
