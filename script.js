@@ -25,6 +25,10 @@ function validate() {
     if (!input.value) {
       input.classList.add('error');
       parent.querySelector('small').innerText = 'This field is required';
+      // input border should change color
+      input.style.border = '1px solid red';
+      // label should change the color from it's parent element
+      parent.style.color = 'red';
       validator = false;
     } else if (monthInput.value > 12) {
       monthInput.classList.add('error');
