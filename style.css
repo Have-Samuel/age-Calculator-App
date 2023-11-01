@@ -208,6 +208,11 @@ button:hover {
     position: relative;
   }
 
+  .hr-line {
+    width: 94%;
+    margin-left: -2rem;
+  }
+
   ::placeholder {
     color: #8a8888;
   }
