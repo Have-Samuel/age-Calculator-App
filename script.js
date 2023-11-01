@@ -33,17 +33,14 @@ function validate() {
     } else if (monthInput.value > 12) {
       monthInput.classList.add('error');
       monthInput.parentElement.querySelector('small').innerText = 'Invalid month';
-      parent.style.color = 'red';
       validator = false;
     } else if (dayInput.value > 31) {
       dayInput.classList.add('error');
       dayInput.parentElement.querySelector('small').innerText = 'Invalid day';
-      parent.style.color = 'red';
       validator = false;
     } else if (yearInput.value > year) {
       yearInput.classList.add('error');
       yearInput.parentElement.querySelector('small').innerText = 'Invalid year';
-      parent.style.color = 'red';
       validator = false;
     }
   });
