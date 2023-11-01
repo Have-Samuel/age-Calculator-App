@@ -179,7 +179,6 @@ button:hover {
     display: flex;
     justify-content: flex-start;
     width: 728px;
-    /* margin-left: 0rem; */
   }
 
   .content {
