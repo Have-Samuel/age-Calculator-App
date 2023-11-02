@@ -201,6 +201,7 @@ button:hover {
     text-align: left;
     margin-top: 0.8rem;
     font-size: 25px;
+    border: 1px solid yellow;
   }
 
   small {
