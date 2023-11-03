@@ -30,6 +30,7 @@ function validate() {
       // label should change the color from it's parent element
       parent.style.color = 'red';
       validator = false;
+      // const numberOfDaysInAmonth = true;
     } else if (monthInput.value > 12) {
       monthInput.classList.add('error');
       monthInput.parentElement.querySelector('small').innerText = 'Invalid month';
