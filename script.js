@@ -35,7 +35,7 @@ function validate() {
       monthInput.classList.add('error');
       monthInput.parentElement.querySelector('small').innerText = 'Invalid month';
       validator = false;
-    } else if (dayInput.value > 31) {
+    } else if (dayInput.value > monthInput.index) {
       dayInput.classList.add('error');
       dayInput.parentElement.querySelector('small').innerText = 'Invalid day';
       validator = false;
