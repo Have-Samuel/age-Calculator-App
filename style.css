@@ -185,7 +185,7 @@ button:hover {
 
   .content {
     display: flex;
-    margin-left: 0;
+    margin-right: 10rem;
     align-items: center;
     justify-content: center;
   }
@@ -223,7 +223,7 @@ button:hover {
   }
 
   .hr-line {
-    width: 94%;
+    width: 81%;
     margin-left: -2rem;
   }
 
