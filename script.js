@@ -22,6 +22,7 @@ function validate() {
   let validator = true;
   inputs.forEach((input) => {
     const parent = input.parentElement;
+    const monthsIndex = true;
     if (!input.value) {
       input.classList.add('error');
       parent.querySelector('small').innerText = 'This field is required';
@@ -30,12 +31,12 @@ function validate() {
       // label should change the color from it's parent element
       parent.style.color = 'red';
       validator = false;
-      // const numberOfDaysInAmonth = true;
     } else if (monthInput.value > 12) {
       monthInput.classList.add('error');
       monthInput.parentElement.querySelector('small').innerText = 'Invalid month';
       validator = false;
-    } else if (dayInput.value > monthInput.index) {
+    } else if (dayInput.value > monthsIndex) {
+      console.log(monthsIndex);
       dayInput.classList.add('error');
       dayInput.parentElement.querySelector('small').innerText = 'Invalid day';
       validator = false;
