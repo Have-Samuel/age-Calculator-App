@@ -36,7 +36,7 @@ function validate() {
       monthInput.parentElement.querySelector('small').innerText = 'Invalid month';
       validator = false;
     } else if (dayInput.value > monthsIndex) {
-      console.log(monthsIndex);
+      // console.log(monthsIndex);
       dayInput.classList.add('error');
       dayInput.parentElement.querySelector('small').innerText = 'Invalid day';
       validator = false;
