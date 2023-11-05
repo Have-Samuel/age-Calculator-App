@@ -171,6 +171,7 @@ button:hover {
   }
 
   .filler {
+    border: 2px solid gray;
     margin: 4rem auto;
     width: 750px;
     height: 560px;
