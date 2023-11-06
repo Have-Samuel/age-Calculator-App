@@ -22,7 +22,6 @@ function validate() {
   let validator = true;
   inputs.forEach((input) => {
     const parent = input.parentElement;
-    const monthsIndex = true;
     if (!input.value) {
       input.classList.add('error');
       parent.querySelector('small').innerText = 'This field is required';
