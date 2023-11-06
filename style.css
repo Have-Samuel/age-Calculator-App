@@ -170,10 +170,10 @@ button:hover {
 @media (min-width: 1200px) {
   body {
     width: 1200px;
+    margin: 0 auto;
   }
 
   .filler {
-    border: 2px solid gray;
     margin: 4rem auto;
     width: 750px;
     height: 560px;
