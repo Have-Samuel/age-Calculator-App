@@ -22,25 +22,22 @@ function validate() {
   let validator = true;
   inputs.forEach((input) => {
     const parent = input.parentElement;
-    const monthsIndex = true;
     if (!input.value) {
       input.classList.add('error');
       parent.querySelector('small').innerText = 'This field is required';
-      // input border should change color
       input.style.border = '1px solid red';
-      // label should change the color from it's parent element
       parent.style.color = 'red';
       validator = false;
     } else if (monthInput.value > 12) {
       monthInput.classList.add('error');
       monthInput.parentElement.querySelector('small').innerText = 'Invalid month';
       validator = false;
-    } else if (dayInput.value > monthsIndex) {
-      // console.log(monthsIndex);
+    } else if (
+      dayInput.value > months[monthInput.value - 1]) {
       dayInput.classList.add('error');
       dayInput.parentElement.querySelector('small').innerText = 'Invalid day';
       validator = false;
-    } else if (yearInput.value > year) {
+    } else if (yearInput.value > year || yearInput.value.length < 4) {
       yearInput.classList.add('error');
       yearInput.parentElement.querySelector('small').innerText = 'Must in the past';
       validator = false;

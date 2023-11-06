@@ -242,8 +242,8 @@ button:hover {
 
   .display {
     display: flex;
-    justify-content: center;
-    margin: 0 2rem 0 5rem;
+    justify-content: flex-start;
+    margin: 0 2rem 0 -12rem;
   }
 
   .age-num {
