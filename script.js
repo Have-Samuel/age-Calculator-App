@@ -35,12 +35,11 @@ function validate() {
       monthInput.classList.add('error');
       monthInput.parentElement.querySelector('small').innerText = 'Invalid month';
       validator = false;
-    } else if (dayInput.value > monthsIndex) {
-      // console.log(monthsIndex);
+    } else if (dayInput.value > 31) {
       dayInput.classList.add('error');
       dayInput.parentElement.querySelector('small').innerText = 'Invalid day';
       validator = false;
-    } else if (yearInput.value > year) {
+    } else if (yearInput.value > year || yearInput.value.length < 4) {
       yearInput.classList.add('error');
       yearInput.parentElement.querySelector('small').innerText = 'Must in the past';
       validator = false;
