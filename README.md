@@ -8,7 +8,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -35,7 +34,20 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+### Mobile
+![](./design/mobile-design.jpg)
+
+### Mobile menu-collapsed
+![](./design/mobile-menu-collapsed.jpg)
+
+### Mobile menu-expanded
+![](./design/mobile-menu-expanded.jpg)
+
+### Desktop
+![](./design/desktop-design.jpg)
+
+### Desktop
+![](./design/active-states.jpg)
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
