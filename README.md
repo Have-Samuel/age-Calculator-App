@@ -55,12 +55,11 @@ Users should be able to:
 ### Desktop-error-whole-form
 ![](./design/desktop-error-whole-form.jpg)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- [Add solution URL here](https://your-solution-url.com)
-- [Add live site URL here](https://your-live-site-url.com)
+- [Github](https://github.com/Have-Samuel)
+- [Live Link]()
+- [Frontend Mentor](https://www.frontendmentor.io/profile/Have-Samuel)
 
 ## My process
 
