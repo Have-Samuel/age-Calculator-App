@@ -5,13 +5,10 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -35,24 +32,31 @@ Users should be able to:
 ### Screenshot
 
 ### Mobile
+
 ![](./design/mobile-design.jpg)
 
 ### Desktop-completed.jpg
+
 ![](./design/desktop-completed.jpg)
 
 ### Active-states
+
 ![](./design/active-states.jpg)
 
 ### Desktop-design
+
 ![](./design/desktop-design.jpg)
 
 ### Desktop-error-empty
+
 ![](./design/desktop-error-empty.jpg)
 
 ### Desktop-error-invalid
+
 ![](./design/desktop-error-invalid.jpg)
 
 ### Desktop-error-whole-form
+
 ![](./design/desktop-error-whole-form.jpg)
 
 ### Links
@@ -96,7 +100,7 @@ Give a ⭐️ if you like this project!
 ## Thanks and Apprecitions
 
 - 🎉 Thanks to Frontend Mentor
-- 👋 Thumbs Up to [@Trekab] 🤝 (https://github.com/trekab)
+- 👋 Thumbs Up to [@Trekab] 🤝 (<https://github.com/trekab>)
 - etc
 
 ## 📝 License
