@@ -37,17 +37,23 @@ Users should be able to:
 ### Mobile
 ![](./design/mobile-design.jpg)
 
-### Mobile menu-collapsed
-![](./design/mobile-menu-collapsed.jpg)
+### Desktop-completed.jpg
+![](./design/desktop-completed.jpg)
 
-### Mobile menu-expanded
-![](./design/mobile-menu-expanded.jpg)
+### Active-states
+![](./design/active-states.jpg)
 
-### Desktop
+### Desktop-design
 ![](./design/desktop-design.jpg)
 
-### Desktop
-![](./design/active-states.jpg)
+### Desktop-error-empty
+![](./design/desktop-error-empty.jpg)
+
+### Desktop-error-invalid
+![](./design/desktop-error-invalid.jpg)
+
+### Desktop-error-whole-form
+![](./design/desktop-error-whole-form.jpg)
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
