@@ -100,7 +100,7 @@ Give a ⭐️ if you like this project!
 ## Thanks and Apprecitions
 
 - 🎉 Thanks to Frontend Mentor
-- 👋 Thumbs Up to [@Trekab] 🤝 (<https://github.com/trekab>)
+- [@Trekab] 🤝 (<https://github.com/trekab>) 👋 Thumbs Up
 - etc
 
 ## 📝 License
