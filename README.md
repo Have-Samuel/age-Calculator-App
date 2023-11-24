@@ -33,7 +33,7 @@ Users should be able to:
 
 ## Mobile
 
-![](./screenshot.jpg)
+![](./design/mobile-design.jpg)
 
 ## Desktop
 
